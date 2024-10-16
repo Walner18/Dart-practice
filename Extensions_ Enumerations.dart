@@ -28,7 +28,6 @@ void ex4() {
         print('El número $numero es impar.');
       }
 
-      // Obtenemos el día correspondiente de la enumeración
       DiaSemana dia = DiaSemana.values[numero - 1];
       print('El día correspondiente es: ${dia.toString().split('.').last}');
     } else {
